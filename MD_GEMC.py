@@ -69,24 +69,6 @@ if rank == 0:
 	nTherm = 500
 	nFreq = 10
 
-	sum_rho_1 = 0
-	sum_rho_2 = 0
-	num_rho_1 = 0
-	num_rho_2 = 0
-	rms_rho_1 = 0
-	rms_rho_2 = 0
-	t_write = 0
-	n_write = 0
-	s_write = 0
-	t_disp = 0
-	n_disp = 0
-	s_disp = 0
-	t_vol = 0
-	n_vol = 0
-	s_vol = 0
-	t_swap = 0
-	n_swap = 0
-	s_swap = 0
 	for step in range(1,nSteps+1):
 		if (data[4]== 0)or(data[5]==0):
 			print("Box is Empty")
